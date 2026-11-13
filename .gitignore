@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+
+# Local configuration, models, datasets and runs (locations are set in .env)
+.env
+resource/
+outputs/
+
+# Private: paper, notes, baselines, analysis and figure code
+latex/
+docs/
+notes/
+baseline/
+analysis/
+visualization/
+rebuttal/
+
+# Editor / agent files
+.vscode/
+.claude*
+.agent*
+.codex
+*.log
